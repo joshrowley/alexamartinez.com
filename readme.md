@@ -13,5 +13,9 @@ Alexa&#39;s portfolio site.
 
 ### Deploying
 
-- If you just want to compile the production build, run `roots compile -e production` and it will build to public.
-- To deploy your site with a single command, run `roots deploy -to XXX` with `XXX` being whichever [ship](https://github.com/carrot/ship#usage) deployer you want to use.
+This site is deployed to Netlify at [alexa-portfolio.netlify.com](http://alexa-portfolio.netlify.com/).
+
+To deploy:
+
+- make sure ship is installed with `npm install ship -g` (only need to run this once)
+- `make ship`
