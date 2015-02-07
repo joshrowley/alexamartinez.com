@@ -21,3 +21,6 @@ module.exports =
 
   jade:
     pretty: true
+
+  locals:
+    email: 'arm5924@rit.edu'
