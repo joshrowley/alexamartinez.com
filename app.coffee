@@ -24,3 +24,6 @@ module.exports =
 
   locals:
     email: 'arm5924@rit.edu'
+
+  server:
+    clean_urls: true
