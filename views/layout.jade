@@ -18,9 +18,9 @@ html
           h1 Alexa Martinez
         nav
           ul
-            li: a(href= '/project') Work
-            li: a(href= '#') About
-            li: a(href= '#') Contact
+            li: a(href= site.projects[0]._url) Work
+            li: a(href= '/#intro') About
+            li: a(href= 'mailto:' + email) Contact
             li: a(href= '#') Resume
 
     block content
