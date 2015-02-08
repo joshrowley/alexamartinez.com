@@ -1,5 +1,13 @@
 extends ../views/layout
 
+block vendor_css
+  link(rel='stylesheet' href= slick_css)
+  link(rel='stylesheet' href= slick_theme)
+
+block vendor_js
+  script(src= jquery)
+  script(src= slick_js)
+
 block content
   #project
     #title
@@ -30,11 +38,11 @@ block content
             != marked(m.copy)
             .img
               .contain
-                p Slideshow
+              .contain
+              .contain
 
       else if m.type == 'full-image'
         .full-image
-          p Image Collage
 
       else if m.type == 'alt-goal'
         .alt-goal
@@ -50,7 +58,8 @@ block content
             != marked(m.copy)
             .img
               .contain
-                p Slideshow
+              .contain
+              .contain
 
     #takeaway
       .wrap

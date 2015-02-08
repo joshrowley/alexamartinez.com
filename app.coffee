@@ -31,6 +31,10 @@ module.exports =
     title: 'Alexa Martinez'
     email: 'arm5924@rit.edu'
     marked: marked
+    slick_css: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick.min.css'
+    slick_js: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick.min.js'
+    slick_theme: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick-theme.min.css'
+    jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'
 
   server:
     clean_urls: true
