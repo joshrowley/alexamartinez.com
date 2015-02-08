@@ -26,6 +26,9 @@ module.exports =
     pretty: true
 
   locals:
+    description: 'The design portfolio of Alexa Martinez.'
+    author: 'Alexa Martinez, Josh Rowley'
+    title: 'Alexa Martinez'
     email: 'arm5924@rit.edu'
     marked: marked
 
