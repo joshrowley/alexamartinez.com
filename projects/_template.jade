@@ -1,0 +1,66 @@
+extends ../views/layout
+
+block content
+  #project
+    #title
+      .wrap
+        h1= post.h1
+        h2= post.h2
+        h3= post.h3
+        hr
+
+    .full-image
+      p Featured Image/Video
+
+    #description
+      .wrap
+        != marked(post.description)
+
+    - each m in post.modules
+
+      if m.type == 'goal'
+        .goal
+          .img
+            p Image
+          .copy
+            != marked(m.copy)
+
+      else if m.type == 'inspiration'
+        .inspiration
+          .wrap
+            != marked(m.copy)
+            .img
+              .contain
+                p Slideshow
+
+      else if m.type == 'full-image'
+        .full-image
+          p Image Collage
+
+      else if m.type == 'alt-goal'
+        .alt-goal
+          .wrap
+            .copy
+              != marked(m.copy)
+            .img
+              p Image
+
+      else if m.type == 'alt-inspiration'
+        .inspiration.alt
+          .wrap
+            != marked(m.copy)
+            .img
+              .contain
+                p Slideshow
+
+    #takeaway
+      .wrap
+        != marked(post.takeaway)
+        .controls
+          a.prev
+            img(src='/img/icons/arrow-left.png')
+            span Prev Project
+          a.next
+            span Next Project
+            img(src='/img/icons/arrow-right.png')
+
