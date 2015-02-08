@@ -18,4 +18,4 @@ This site is deployed to Netlify at [alexa-portfolio.netlify.com](http://alexa-p
 To deploy:
 
 - make sure ship is installed with `npm install ship -g` (only need to run this once)
-- `make ship`
+- `npm run ship`
