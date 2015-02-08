@@ -1,0 +1,46 @@
+#goal-module
+  group()
+  position: relative
+
+  &:before
+    content: ''
+    inline-block()
+    height: 100%
+    vertical-align: middle
+    margin-right: -0.25em
+
+  .img
+    float: left
+    display: block
+    width: 530px
+    min-height: 400px
+    background-color: gray
+
+    p
+      color: banner-gray
+      line-height: 400px
+      text-align: center
+
+  .copy
+    absolute: top 50%
+    transform: translateY(-50%)
+    max-width: 550px
+    width: 100%
+    box-sizing: content-box
+    inline-block()
+    vertical-align: middle
+    padding-left: 160px
+
+  h3
+    padding: 15px 0
+    text-transform: uppercase
+    color: seafoam
+    font-size: 2em
+    border-bottom: 1px solid seafoam
+    inline-block()
+    padding-right: 40px
+
+  p
+    padding: 12px 0
+    font-size: 1.6em
+    line-height: 1.8em
