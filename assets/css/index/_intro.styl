@@ -3,7 +3,7 @@
   max-width: 800px
   margin: 0 auto
   group()
-  padding: 70px 0
+  padding: 70px 20px
 
   img
     max-width: 270px
@@ -26,3 +26,19 @@
   p
     font-size: 1.55em
     line-height: 1.7em
+
+  +below('m')
+    padding: 50px 20px
+
+    img
+      float: none
+      display: block
+      margin: 0 auto
+
+    .intro
+      position: static
+      float: none
+      margin: 0 auto
+      padding-left: 0
+      transform: translateY(0%)
+      padding: 20px 0
