@@ -8,6 +8,7 @@ html
     meta(name='author', content= author)
     meta(name="viewport" content="width=device-width, initial-scale=1")
     title= title
+    block vendor_css
     != css('/')
 
   body
@@ -39,4 +40,5 @@ html
         li: a(href='#'): img(src='/img/icons/tumblr.png')
         li: a(href='#'): img(src='/img/icons/vimeo.png')
 
-    != js()
+    block vendor_js
+    != js('/')
