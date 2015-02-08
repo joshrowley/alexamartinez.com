@@ -8,17 +8,13 @@ block content
           ### I am an
           ## Interactive Designer
           looking to collaborate with inspiring professionals, refine my skills, and produce impactful work.
-        a(href= '/project') View Work
+        a(href= site.projects[0]._url) View Work
 
     #gallery
       .wrap
         ul
-          li: img(src='/img/sounds-by-the-sea.png')
-          li: img(src='/img/sounds-by-the-sea.png')
-          li: img(src='/img/sounds-by-the-sea.png')
-          li: img(src='/img/sounds-by-the-sea.png')
-          li: img(src='/img/sounds-by-the-sea.png')
-          li: img(src='/img/sounds-by-the-sea.png')
+          - each p in site.projects
+            li: a(href= p._url): img(src='/img/projects/' + p.img)
 
     #intro
       img(src='/img/me.png')
