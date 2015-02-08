@@ -1,5 +1,5 @@
 header
-  padding: 44px 0
+  padding: 44px 20px
 
   .logo
     max-width: 60px
@@ -33,3 +33,14 @@ header
       hover-darken()
       transition: color .5s
       line-height: 35px
+
+  +below('s')
+    a
+      text-align: center
+      display: block
+      width: 100%
+      group()
+
+    nav
+      float: none
+      padding-top: 10px
