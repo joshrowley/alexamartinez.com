@@ -10,7 +10,6 @@ block content
         hr
 
     .full-image
-      p Featured Image/Video
 
     #description
       .wrap
@@ -21,7 +20,7 @@ block content
       if m.type == 'goal'
         .goal
           .img
-            p Image
+            img(src='//placehold.it/540x400')
           .copy
             != marked(m.copy)
 
