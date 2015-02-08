@@ -12,4 +12,7 @@ app.extensions.push(css_pipeline(files: 'assets/css/*.styl', out: 'css/build.css
 app.stylus.sourcemap = false
 app['coffee-script'].sourcemap = false
 
+# disable jade pretty print
+app.jade.pretty = false
+
 module.exports = app
