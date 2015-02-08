@@ -14,5 +14,8 @@
     "roots": "3.0.x",
     "lodash": "3.1.x",
     "dynamic-content": "0.2.x"
+  },
+  "scripts": {
+    "ship": "roots deploy -to netlify"
   }
 }
