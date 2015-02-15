@@ -12,33 +12,9 @@ html
     != css('/')
 
   body
-    header
-      .wrap
-        a(href='/')
-          img.logo(src='/img/logo.png')
-          h1 Alexa Martinez
-        nav
-          ul
-            li: a(href= site.projects[0]._url) Work
-            li: a(href= '/#intro') About
-            li: a(href= 'mailto:' + email) Contact
-            li: a(href= '#') Resume
-
+    include _header
     block content
-
-    footer
-      h2 Let's Chat
-      p
-        a(href= 'mailto:' + email)= email
-        span &nbsp;&sol;&sol;&nbsp;
-        a(href= 'tel:+17327403778')| 732 740 3778
-      ul
-        li: a(href='#'): img(src='/img/icons/linkedin.png')
-        li: a(href='#'): img(src='/img/icons/twitter.png')
-        li: a(href='#'): img(src='/img/icons/instagram.png')
-        li: a(href='#'): img(src='/img/icons/pinterest.png')
-        li: a(href='#'): img(src='/img/icons/tumblr.png')
-        li: a(href='#'): img(src='/img/icons/vimeo.png')
+    include _footer
 
     block vendor_js
     != js('/')
