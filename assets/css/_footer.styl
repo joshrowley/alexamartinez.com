@@ -1,5 +1,5 @@
 footer
-  background-image: url('/img/bottom-bg.png')
+  background-image: url('/img/bottom-bg.jpg')
   background-position: center
   background-size: cover
   background-repeat: no-repeat
@@ -28,9 +28,14 @@ footer
     color: seafoam
 
   ul
-    inline-list()
+    inline-list(10)
     inline-block()
     padding: 15px 0
+
+    img
+      social-icon-width = 40px
+      size: social-icon-width (social-icon-width / 2)
+
 
   +below('s')
     padding: 25px 0
