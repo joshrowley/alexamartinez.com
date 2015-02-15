@@ -16,7 +16,7 @@ block content
         h3= post.h3
         hr
 
-    .full-image
+    .full-image(style= bg_img(project_img(post.hero_img), post.hero_img_bg_color))
 
     #description
       .wrap
@@ -31,14 +31,13 @@ block content
           .copy
             != marked(m.copy)
 
-      else if m.type == 'inspiration'
-        .inspiration
+      else if m.type == 'slideshow'
+        .slideshow
           .wrap
             != marked(m.copy)
             .img
-              .contain
-              .contain
-              .contain
+              - each img in m.imgs
+                .contain(style= bg_img(project_img(img)))
 
       else if m.type == 'full-image'
         .full-image
@@ -49,16 +48,15 @@ block content
             .copy
               != marked(m.copy)
             .img
-              img(src='//placehold.it/540x400')
+              img(src= project_img(m.img))
 
-      else if m.type == 'alt-inspiration'
-        .inspiration.alt
+      else if m.type == 'alt-slideshow'
+        .slideshow.alt
           .wrap
             != marked(m.copy)
             .img
-              .contain
-              .contain
-              .contain
+              - each img in m.imgs
+                .contain(style= bg_img(project_img(img)))
 
     #takeaway
       .wrap
