@@ -19,5 +19,25 @@
       background-repeat: no-repeat
       min-height: 500px
 
-  button:before
-    color: gray
+  button
+    slideshow-btn-width = 12px
+    slideshow-btn-height = 24px
+    absolute: top 50%
+    margin-top: -(slideshow-btn-height / 2)
+    size: slideshow-btn-width slideshow-btn-height
+    background-size: slideshow-btn-width slideshow-btn-height
+    background-repeat: no-repeat
+    padding: 0
+    margin: 0
+    background-color: transparent
+    border: none
+    text-indent: -1000px
+    outline: none
+
+    &.slick-prev
+      left: -25px
+      background-image: url('/img/icons/slide-arrow-left.svg')
+
+    &.slick-next
+      right: -25px
+      background-image: url('/img/icons/slide-arrow-right.svg')
