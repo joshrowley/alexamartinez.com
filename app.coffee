@@ -38,6 +38,11 @@ module.exports =
     slick_js: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick.min.js'
     slick_theme: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick-theme.min.css'
     jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'
+    project_img: (p) -> "/img/projects/#{p}"
+    bg_img: (p, color) ->
+      style = "background-image: url('#{p}');"
+      if color then style += "background-color: #{color};"
+      return style
 
   server:
     clean_urls: true
