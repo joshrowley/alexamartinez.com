@@ -3,6 +3,9 @@
   color: white
   padding: 105px 0 65px
 
+  .wrap
+    position: relative
+
   .controls
     group()
 
@@ -16,7 +19,13 @@
     line-height: 2em
     padding: 15px 0
 
-  a
+  a.button
+    button(gray)
+    max-width: 143px
+    width: 100%
+    absolute: bottom 45px left 0 right 0
+
+  .controls a
     inline-block()
     text-transform: uppercase
     font-size: 1.3em
