@@ -26,7 +26,7 @@ block content
       if m.type == 'goal'
         .goal
           .img
-            img(src='//placehold.it/540x400')
+            img(src= project_img(m.img))
           .copy
             != marked(m.copy)
 
