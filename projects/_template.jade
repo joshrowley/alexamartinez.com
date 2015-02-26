@@ -24,14 +24,14 @@ block content
     - each m in post.modules
 
       if m.type == 'goal'
-        .goal
+        .goal(style= bg_color(m.bg_color))
           .img
             img(src= project_img(m.img))
           .copy
             != marked(m.copy)
 
       else if m.type == 'slideshow'
-        .slideshow
+        .slideshow(style= bg_color(m.bg_color))
           .wrap
             != marked(m.copy)
             .img
@@ -48,14 +48,6 @@ block content
               != marked(m.copy)
             .img
               img(src= project_img(m.img))
-
-      else if m.type == 'alt-slideshow'
-        .slideshow.alt
-          .wrap
-            != marked(m.copy)
-            .img
-              - each img in m.imgs
-                img(src= project_img(img))
 
     #takeaway
       .wrap
