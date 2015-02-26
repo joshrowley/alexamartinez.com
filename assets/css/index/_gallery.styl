@@ -11,15 +11,23 @@
       float: left
       padding: 2px
 
+    .wrapper
+      position: relative
+
+  a
+    display: block
+    size: 100%
+
   img
     max-width: 100%
+    display: block
 
   .hover
-    absolute: top 0
     size: 100%
-    background-color: seafoam
     opacity: 0
     transition: opacity .5s ease-in-out
+    background-color: seafoam
+    absolute: top 0
 
     &:hover
       opacity: 0.95
