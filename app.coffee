@@ -44,6 +44,7 @@ module.exports =
       if color then style += "background-color: #{color};"
       return style
     bg_color: (color = '#fff') ->
+      if color == 'dark' then color = '#f5f5f5'
       "background-color: #{color};"
 
   server:
