@@ -14,9 +14,10 @@ block content
       .wrap
         ul
           - each p in site.projects
-            li: a(href= p._url)
-              img(src= project_img(p.thumbnail))
-              .hover: .contain!= marked(p.hover)
+            li: .wrapper
+              a(href= p._url)
+                img(src= project_img(p.thumbnail))
+                .hover: .contain!= marked(p.hover)
 
 
     #intro
