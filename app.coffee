@@ -43,6 +43,8 @@ module.exports =
       style = "background-image: url('#{p}');"
       if color then style += "background-color: #{color};"
       return style
+    bg_color: (color = '#fff') ->
+      "background-color: #{color};"
 
   server:
     clean_urls: true
