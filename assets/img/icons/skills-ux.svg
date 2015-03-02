@@ -19,102 +19,94 @@
 		<sliceSourceBounds  height="339.2" width="16383" x="-7579" y="-713.2" bottomLeftOrigin="true"></sliceSourceBounds>
 	</sfw>
 </metadata>
+<rect x="0" y="0" fill="none" width="140" height="140"/>
 <g>
-	<rect x="0" y="0" fill="#F6F7F8" width="140" height="140"/>
+	<g>
+		<polygon fill="#A6A8AB" points="101.6,82.1 89,82.1 89,28.7 101.6,28.7 101.6,30.7 91.1,30.7 91.1,80 101.6,80 		"/>
+	</g>
+	<g>
+		<rect x="38.9" y="54.3" fill="#A6A8AB" width="62.7" height="2.1"/>
+	</g>
+	<g>
+		<rect x="55.8" y="84.1" fill="#A6A8AB" width="12" height="2.1"/>
+	</g>
+	<g>
+		<path fill="#5A595C" d="M39.9,63.5H23.6V47.2h16.3V63.5z M25.6,61.5h12.2V49.3H25.6V61.5z"/>
+	</g>
+	<g>
+		<rect x="29.2" y="52.8" fill="#72C8BE" width="5" height="5"/>
+	</g>
+	<g>
+		<path fill="#5A595C" d="M116.4,63.5h-16.3V47.2h16.3V63.5z M102.2,61.5h12.2V49.3h-12.2V61.5z"/>
+	</g>
+	<g>
+		<path fill="#5A595C" d="M116.4,89.2h-16.3V72.9h16.3V89.2z M102.2,87.2h12.2V75h-12.2V87.2z"/>
+	</g>
+	<g>
+		<polygon fill="#A6A8AB" points="67.8,111.3 54.7,111.3 54.7,54.8 56.8,54.8 56.8,109.3 67.8,109.3 		"/>
+	</g>
+	<g>
+		<path fill="#5A595C" d="M83.6,118.5H67.2v-16.3h16.3V118.5z M69.3,116.4h12.2v-12.2H69.3V116.4z"/>
+	</g>
+	<g>
+		<path fill="#5A595C" d="M116.4,37.9h-16.3V21.5h16.3V37.9z M102.2,35.8h12.2V23.6h-12.2V35.8z"/>
+	</g>
 	<g>
 		<g>
-			<polygon fill="#A7A9AC" points="103.6,82.1 89,82.1 89,28.7 103.6,28.7 103.6,30.7 91.1,30.7 91.1,80 103.6,80 			"/>
+			<rect x="104.6" y="26.1" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 		<g>
-			<rect x="38.9" y="54.3" fill="#A7A9AC" width="64.8" height="2.1"/>
+			<rect x="104.6" y="29.2" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 		<g>
-			<rect x="55.8" y="84.1" fill="#A7A9AC" width="18.1" height="2.1"/>
+			<rect x="104.7" y="32.3" fill="#72C8BE" width="7.2" height="1"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<rect x="104.6" y="51.8" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 		<g>
-			<rect x="24.6" y="48.2" fill="#F5F5F5" width="14.3" height="14.3"/>
-			<path fill="#5A595C" d="M39.9,63.5H23.6V47.2h16.3V63.5z M25.6,61.5h12.2V49.3H25.6V61.5z"/>
+			<rect x="104.6" y="54.9" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 		<g>
-			<rect x="29.2" y="52.8" fill="#72C9BF" width="5" height="5"/>
+			<rect x="104.7" y="58" fill="#72C8BE" width="7.2" height="1"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<rect x="104.6" y="77.4" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 		<g>
-			<rect x="101.1" y="48.2" fill="#F5F5F5" width="14.3" height="14.3"/>
-			<path fill="#5A595C" d="M116.4,63.5h-16.3V47.2h16.3V63.5z M102.2,61.5h12.2V49.3h-12.2V61.5z"/>
+			<rect x="104.6" y="80.5" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 		<g>
-			<rect x="101.1" y="73.9" fill="#F5F5F5" width="14.3" height="14.3"/>
-			<path fill="#5A595C" d="M116.4,89.2h-16.3V72.9h16.3V89.2z M102.2,87.2h12.2V75h-12.2V87.2z"/>
+			<rect x="104.7" y="83.6" fill="#72C8BE" width="7.2" height="1"/>
+		</g>
+	</g>
+	<g>
+		<path fill="#5A595C" d="M83.5,93.3H67.2V76.9h16.3V93.3z M69.2,91.2h12.2V79H69.2V91.2z"/>
+	</g>
+	<g>
+		<g>
+			<rect x="71.7" y="81.5" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 		<g>
-			<polygon fill="#A7A9AC" points="80.8,111.3 54.7,111.3 54.7,54.8 56.8,54.8 56.8,109.3 80.8,109.3 			"/>
+			<rect x="71.7" y="84.6" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 		<g>
-			<rect x="68.3" y="103.2" fill="#F5F5F5" width="14.3" height="14.3"/>
-			<path fill="#5A595C" d="M83.6,118.5H67.2v-16.3h16.3V118.5z M69.3,116.4h12.2v-12.2H69.3V116.4z"/>
+			<rect x="71.8" y="87.7" fill="#72C8BE" width="7.2" height="1"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<rect x="71.7" y="106.7" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 		<g>
-			<rect x="101.1" y="22.5" fill="#F5F5F5" width="14.3" height="14.3"/>
-			<path fill="#5A595C" d="M116.4,37.9h-16.3V21.5h16.3V37.9z M102.2,35.8h12.2V23.6h-12.2V35.8z"/>
+			<rect x="71.7" y="109.8" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 		<g>
-			<g>
-				<rect x="104.6" y="26.1" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-			<g>
-				<rect x="104.6" y="29.2" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-			<g>
-				<rect x="104.7" y="32.3" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<rect x="104.6" y="51.8" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-			<g>
-				<rect x="104.6" y="54.9" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-			<g>
-				<rect x="104.7" y="58" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<rect x="104.6" y="77.4" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-			<g>
-				<rect x="104.6" y="80.5" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-			<g>
-				<rect x="104.7" y="83.6" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-		</g>
-		<g>
-			<rect x="68.2" y="78" fill="#F5F5F5" width="14.3" height="14.3"/>
-			<path fill="#5A595C" d="M83.5,93.3H67.2V76.9h16.3V93.3z M69.2,91.2h12.2V79H69.2V91.2z"/>
-		</g>
-		<g>
-			<g>
-				<rect x="71.7" y="81.5" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-			<g>
-				<rect x="71.7" y="84.6" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-			<g>
-				<rect x="71.8" y="87.7" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<rect x="71.7" y="106.7" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-			<g>
-				<rect x="71.7" y="109.8" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
-			<g>
-				<rect x="71.9" y="112.9" fill="#72C9BF" width="7.2" height="1"/>
-			</g>
+			<rect x="71.9" y="112.9" fill="#72C8BE" width="7.2" height="1"/>
 		</g>
 	</g>
 </g>
