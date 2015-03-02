@@ -32,7 +32,7 @@ module.exports =
     description: 'The design portfolio of Alexa Martinez.'
     author: 'Alexa Martinez, Josh Rowley'
     title: 'Alexa Martinez'
-    email: 'arm5924@rit.edu'
+    email: 'alexamartinez.design@gmail.com'
     marked: marked
     slick_css: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick.min.css'
     slick_js: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick.min.js'
