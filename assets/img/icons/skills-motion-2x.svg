@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 280 280"
+	 enable-background="new 0 0 280 280" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  height="280" width="16383" x="-7579" y="-534.5" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<rect x="0" y="0" fill="#F6F7F8" width="280" height="280"/>
+	<g>
+		<g>
+			<circle fill="#F5F5F5" cx="223.3" cy="79" r="8.2"/>
+			<path fill="#A7A9AC" d="M223.3,88.2c-5.1,0-9.2-4.1-9.2-9.2c0-5.1,4.1-9.2,9.2-9.2s9.2,4.1,9.2,9.2
+				C232.5,84.1,228.4,88.2,223.3,88.2z M223.3,71.9c-3.9,0-7.1,3.2-7.1,7.1c0,3.9,3.2,7.1,7.1,7.1c3.9,0,7.1-3.2,7.1-7.1
+				C230.5,75.1,227.3,71.9,223.3,71.9z"/>
+		</g>
+		<g>
+			<circle fill="#F5F5F5" cx="181.3" cy="109.1" r="16.3"/>
+			<path fill="#A7A9AC" d="M181.3,126.4c-9.5,0-17.3-7.8-17.3-17.3c0-9.5,7.8-17.3,17.3-17.3s17.3,7.8,17.3,17.3
+				C198.5,118.6,190.8,126.4,181.3,126.4z M181.3,93.9c-8.4,0-15.2,6.8-15.2,15.2s6.8,15.2,15.2,15.2c8.4,0,15.2-6.8,15.2-15.2
+				S189.6,93.9,181.3,93.9z"/>
+		</g>
+		<g>
+			<circle fill="#F5F5F5" cx="120.9" cy="84.8" r="8.2"/>
+			<path fill="#A7A9AC" d="M120.9,94c-5.1,0-9.2-4.1-9.2-9.2s4.1-9.2,9.2-9.2c5.1,0,9.2,4.1,9.2,9.2S125.9,94,120.9,94z M120.9,77.6
+				c-3.9,0-7.1,3.2-7.1,7.1c0,3.9,3.2,7.1,7.1,7.1c3.9,0,7.1-3.2,7.1-7.1C128,80.8,124.8,77.6,120.9,77.6z"/>
+		</g>
+		<g>
+			<circle fill="#F5F5F5" cx="120.9" cy="200.6" r="8.2"/>
+			<path fill="#A7A9AC" d="M120.9,209.8c-5.1,0-9.2-4.1-9.2-9.2s4.1-9.2,9.2-9.2c5.1,0,9.2,4.1,9.2,9.2S125.9,209.8,120.9,209.8z
+				 M120.9,193.4c-3.9,0-7.1,3.2-7.1,7.1s3.2,7.1,7.1,7.1c3.9,0,7.1-3.2,7.1-7.1S124.8,193.4,120.9,193.4z"/>
+		</g>
+		<g>
+			<circle fill="#F5F5F5" cx="236.6" cy="151.8" r="5.1"/>
+			<path fill="#A7A9AC" d="M236.6,158c-3.4,0-6.2-2.8-6.2-6.2c0-3.4,2.8-6.2,6.2-6.2s6.2,2.8,6.2,6.2C242.8,155.2,240,158,236.6,158
+				z M236.6,147.7c-2.3,0-4.1,1.8-4.1,4.1c0,2.3,1.8,4.1,4.1,4.1c2.3,0,4.1-1.8,4.1-4.1C240.7,149.6,238.9,147.7,236.6,147.7z"/>
+		</g>
+		<g>
+			<polygon fill="#F5F5F5" points="96.7,95.5 145,123.4 96.7,151.3 			"/>
+			<path fill="#5A595C" d="M94.6,154.9V92l54.5,31.5L94.6,154.9z M98.8,99.1v48.6l42.1-24.3L98.8,99.1z"/>
+		</g>
+		<g>
+			<polygon fill="#F5F5F5" points="186.7,114 189.9,183.8 127.8,151.7 			"/>
+			<path fill="#5A595C" d="M192.1,187.3l-68.4-35.5l64.9-41.5L192.1,187.3z M132,151.5l55.7,28.9l-2.8-62.7L132,151.5z"/>
+		</g>
+		<g>
+			
+				<rect x="200.8" y="186.2" transform="matrix(0.9905 0.1377 -0.1377 0.9905 27.7689 -26.882)" fill="#72C9BF" width="14.7" height="2.1"/>
+		</g>
+		<g>
+			
+				<rect x="187.7" y="195.4" transform="matrix(0.9904 0.1384 -0.1384 0.9904 29.8857 -24.1661)" fill="#72C9BF" width="2.1" height="14.7"/>
+		</g>
+		<g>
+			
+				<rect x="194.6" y="198.8" transform="matrix(0.603 0.7977 -0.7977 0.603 239.567 -81.7714)" fill="#72C9BF" width="14.7" height="2.1"/>
+		</g>
+		<g>
+			<g>
+				<rect x="44.7" y="111.9" fill="#72C9BF" width="42.3" height="2.1"/>
+			</g>
+			<g>
+				<rect x="37.2" y="122.4" fill="#72C9BF" width="42.3" height="2.1"/>
+			</g>
+			<g>
+				<rect x="45.5" y="132.9" fill="#72C9BF" width="42.3" height="2.1"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
