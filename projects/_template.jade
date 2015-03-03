@@ -15,7 +15,8 @@ block content
         h3= post.h3
         hr
 
-    .full-image(style= bg_img(project_img(post.hero_img), post.hero_img_bg_color))
+    .full-image(style= bg_color(post.hero_img_bg_color))
+      img(src= project_img(post.hero_img))
 
     #description
       .wrap
@@ -40,14 +41,15 @@ block content
 
       else if m.type == 'full-image'
         .full-image(style= bg_img(project_img(m.img), m.bg_color))
+          img(src= project_img(m.img))
 
       else if m.type == 'alt-goal'
         .alt-goal(style= bg_color(m.bg_color))
           .wrap
-            .copy
-              != marked(m.copy)
             .img
               img(src= project_img(m.img))
+            .copy
+              != marked(m.copy)
 
     #takeaway
       .wrap
