@@ -1,7 +1,7 @@
 #takeaway
   background-color: seafoam
   color: white
-  padding: 105px 0 65px
+  padding: 105px 20px 65px
 
   .wrap
     position: relative
@@ -48,3 +48,18 @@
 
   .next
     float: right
+
+  +below('l')
+    padding-top: 65px
+    padding-bottom: 25px
+
+  +below('s')
+    .controls
+      span
+        display: none
+
+      a
+        min-width: 20px
+
+    .next
+      text-align: right

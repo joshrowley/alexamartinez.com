@@ -1,6 +1,6 @@
 .alt-goal
   group()
-  padding: 120px 0
+  padding: 120px 0 120px 20px
   position: relative
 
   .img
@@ -26,3 +26,24 @@
     max-width: 143px
     width: 100%
     font-size: .74em
+
+  +below('xl')
+    padding-top: 70px
+    padding-bottom: 70px
+
+    .img
+      max-width: 50%
+
+    .copy
+      max-width: 40%
+
+  +below('s')
+    .img
+      max-width: 100%
+      float: none
+
+    .copy
+      max-width: 100%
+      position: static
+      transform: translateY(0)
+      padding-top: 5px
