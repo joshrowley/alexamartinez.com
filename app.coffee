@@ -4,7 +4,9 @@ autoprefixer    = require 'autoprefixer-stylus'
 js_pipeline     = require 'js-pipeline'
 css_pipeline    = require 'css-pipeline'
 dynamic_content = require 'dynamic-content'
+yaml            = require 'roots-yaml'
 marked          = require 'marked'
+_               = require 'lodash'
 
 module.exports =
   ignores: [
@@ -13,6 +15,7 @@ module.exports =
     ]
 
   extensions: [
+    yaml()
     dynamic_content()
     js_pipeline(files: 'assets/js/*.coffee')
     css_pipeline(files: 'assets/css/*.styl')
@@ -46,6 +49,9 @@ module.exports =
     bg_color: (color = '#fff') ->
       if color == 'dark' then color = '#f5f5f5'
       "background-color: #{color};"
+    sort_projects: (projects, order) ->
+      _.map order, (k) ->
+        _.find(projects, (p) -> p._url == "/projects/#{k}.html")
 
   server:
     clean_urls: true
