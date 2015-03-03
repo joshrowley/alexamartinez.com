@@ -13,7 +13,7 @@
   .img
     float: left
     display: block
-    width: 530px
+    width: 38%
     background-color: gray
 
     img
@@ -23,10 +23,28 @@
   .copy
     absolute: top 50%
     transform: translateY(-50%)
-    max-width: 550px
-    width: 100%
+    width: 50%
     box-sizing: content-box
     inline-block()
     vertical-align: middle
-    padding-left: 160px
+    padding-left: 8%
+    // padding-left: 160px
 
+
+  +below('l')
+    padding: 80px 20px
+
+  +below('s')
+    padding-top: 30px
+    padding-bottom: 30px
+
+    .img
+      float: none
+      width: 100%
+
+    .copy
+      position: static
+      transform: translateY(0)
+      width: 100%
+      padding-top: 5px
+      padding-left: 0
