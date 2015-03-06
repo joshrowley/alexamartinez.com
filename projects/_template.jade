@@ -5,6 +5,7 @@ block vendor_css
 
 block vendor_js
   script(src= slick_js)
+  script(src= fit_vids_js)
 
 block content
   #project
@@ -15,8 +16,13 @@ block content
         h3= post.h3
         hr
 
-    .full-image(style= bg_color(post.hero_img_bg_color))
-      img(src= project_img(post.hero_img))
+      if post.hero_video
+        .video(style= bg_color(post.hero_img_bg_color))
+          .wrap
+            iframe(src='https://player.vimeo.com/video/' + post.hero_video + '?color=72c9bc&title=0&byline=0&portrait=0', width='auto', height='auto', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
+      else
+        .full-image(style= bg_color(post.hero_img_bg_color))
+          img(src= project_img(post.hero_img))
 
     #description
       .wrap
@@ -50,6 +56,11 @@ block content
               img(src= project_img(m.img))
             .copy
               != marked(m.copy)
+
+      else if m.type == 'video'
+        .video
+          .wrap
+            iframe(src='https://player.vimeo.com/video/' + m.id + '?color=72c9bc&title=0&byline=0&portrait=0', width='auto', height='auto', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
 
     #takeaway
       .wrap
