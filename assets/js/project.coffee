@@ -3,3 +3,5 @@ $ ->
 
   if $slideshow.length > 0
     $slideshow.slick()
+
+  $('.video .wrap').fitVids()
