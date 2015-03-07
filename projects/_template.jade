@@ -66,10 +66,12 @@ block content
       .wrap
         != marked(post.takeaway)
         .controls
-          a.prev
-            img(src='/img/icons/arrow-left.svg')
-            span Prev Project
-          a.next
-            span Next Project
-            img(src='/img/icons/arrow-right.svg')
+          if !is_first_project(post, data.order)
+            a.prev(href= prev_project_url(post, data.order))
+              img(src='/img/icons/arrow-left.svg')
+              span Prev Project
+          if !is_last_project(post, data.order)
+            a.next(href= next_project_url(post, data.order))
+              span Next Project
+              img(src='/img/icons/arrow-right.svg')
         a.button(href= post.full_deck_doc) View Deck

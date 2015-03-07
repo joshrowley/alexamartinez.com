@@ -8,6 +8,8 @@ yaml            = require 'roots-yaml'
 marked          = require 'marked'
 _               = require 'lodash'
 
+project_url = (name) -> "/projects/#{name}.html"
+
 module.exports =
   ignores: [
     'readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf',
@@ -53,6 +55,17 @@ module.exports =
     sort_projects: (projects, order) ->
       _.map order, (k) ->
         _.find(projects, (p) -> p._url == "/projects/#{k}.html")
+    is_first_project: (project, order) ->
+      project._url == project_url(order[0])
+    is_last_project: (project, order) ->
+      project._url == project_url(order[order.length - 1])
+    prev_project_url: (project, order) ->
+      i = _.findIndex(order, (p) -> project._url == "/projects/#{p}.html")
+      project_url(order[i - 1])
+    next_project_url: (project, order) ->
+      i = _.findIndex(order, (p) -> project._url == "/projects/#{p}.html")
+      project_url(order[i + 1])
+
 
   server:
     clean_urls: true
