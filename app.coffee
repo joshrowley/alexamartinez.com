@@ -10,6 +10,12 @@ _               = require 'lodash'
 
 project_url = (name) -> "/projects/#{name}.html"
 
+is_first_project = (project, order) ->
+  project._url == project_url(order[0])
+
+is_last_project = (project, order) ->
+  project._url == project_url(order[order.length - 1])
+
 module.exports =
   ignores: [
     'readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf',
@@ -55,14 +61,13 @@ module.exports =
     sort_projects: (projects, order) ->
       _.map order, (k) ->
         _.find(projects, (p) -> p._url == "/projects/#{k}.html")
-    is_first_project: (project, order) ->
-      project._url == project_url(order[0])
-    is_last_project: (project, order) ->
-      project._url == project_url(order[order.length - 1])
     prev_project_url: (project, order) ->
+      if is_first_project(project, order) 
+        return project_url(order[order.length - 1])
       i = _.findIndex(order, (p) -> project._url == "/projects/#{p}.html")
       project_url(order[i - 1])
     next_project_url: (project, order) ->
+      if is_last_project(project, order)  then return project_url(order[0])
       i = _.findIndex(order, (p) -> project._url == "/projects/#{p}.html")
       project_url(order[i + 1])
 
