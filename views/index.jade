@@ -1,5 +1,8 @@
 extends layout
 
+block vendor_js
+  script(src= waypoints_js)
+
 block content
   #index
     #banner
@@ -17,7 +20,7 @@ block content
             li: .wrapper
               a(href= p._url)
                 img(src= project_img(p.thumbnail))
-                .hover: .contain!= marked(p.hover)
+                .hover.preload: .contain!= marked(p.hover)
 
 
     #intro

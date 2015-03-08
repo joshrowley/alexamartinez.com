@@ -8,3 +8,7 @@ $ ->
       scrollTop: $target.offset().top
     , 900, 'swing', ->
       window.location.hash = target
+
+  $('.hover').waypoint ->
+    $(@).removeClass('preload')
+  , offset: '75%'
