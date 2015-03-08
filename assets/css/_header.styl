@@ -34,6 +34,13 @@ header
       transition: color .5s
       line-height: 35px
 
+  li
+    transition: transform 0.5s
+
+    &:hover
+      transform: scale(1.1)
+      
+
   +below('s')
     a
       text-align: center
