@@ -27,7 +27,7 @@
     margin: 0 auto
     hover-darken(25%, true)
     transition: color .5s
-    
+
   .controls a
     inline-block()
     text-transform: uppercase
@@ -47,9 +47,18 @@
 
   .prev
     float: left
+    hover-darken(25%, true)
+    transition: transform 0.2s
+    &:hover
+      transform: scale(1.02)
 
   .next
     float: right
+    hover-darken(25%, true)
+    transition: transform 0.2s
+    &:hover
+      transform: scale(1.02)
+
 
   +below('l')
     padding-top: 65px
