@@ -1,11 +1,14 @@
-button(color)
+button(c)
   display: block
   line-height: 34px
-  border: 1px solid color
-  color: color
+  border: 1px solid c
+  color: c
   text-transform: uppercase
   text-align: center
   font-size: 1.4em
-  transition: color .3s
+  transition: all .3s
   hover-darken(25%, true)
   font-weight: 500
+
+  &:hover
+    border-color: darken(c, 25%)
