@@ -1,5 +1,5 @@
 $ ->
-  if $('#project').length is not 0
+  if $('#project').length > 0
     $slideshow = $('#project .slideshow .img')
 
     if $slideshow.length > 0
