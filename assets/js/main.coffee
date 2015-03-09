@@ -1,7 +1,7 @@
-$header = $('header')
-klass   = 'open-menu'
-
 $ ->
+  $header = $('header')
+  klass   = 'open-menu'
+
   $('.hamburger').on 'click touchstart', ->
     $header.addClass(klass)
     false
