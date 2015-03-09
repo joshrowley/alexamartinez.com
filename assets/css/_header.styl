@@ -40,8 +40,15 @@ header
     &:hover
       transform: scale(1.02)
 
+  .hamburger
+    display: none
+
 
   +below('s')
+    padding-top: 20px
+    padding-bottom: 20px
+    border-bottom: 1px solid gallery-bg
+
     a
       text-align: center
       display: block
@@ -49,5 +56,36 @@ header
       group()
 
     nav
-      float: none
-      padding-top: 10px
+      ul
+        position: fixed
+        top: 0
+        right: 0
+        width: 220px
+        background-color: white
+        border-left: 2px solid gallery-bg
+        transform: translate3d(3000px, 0, 0)
+
+        li
+          float: none
+          margin: 0
+          border-bottom: 2px solid gallery-bg
+
+          a
+            padding: 17px 0
+
+    .logo
+      max-width: 52px
+
+    h1
+      line-height: 30px
+      font-size: 1.6em
+
+
+    .hamburger
+      display: block
+      position: absolute
+      top: 0
+      right: 0
+      width: 20px
+      padding: 25px
+      box-sizing: content-box
