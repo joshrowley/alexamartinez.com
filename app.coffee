@@ -40,9 +40,9 @@ module.exports =
     pretty: true
 
   locals:
+    title: 'Alexa Martinez'
     description: 'The design portfolio of Alexa Martinez.'
     author: 'Alexa Martinez, Josh Rowley'
-    title: 'Alexa Martinez'
     email: 'alexamartinez.design@gmail.com'
     marked: marked
     slick_css: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick.min.css'
