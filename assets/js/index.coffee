@@ -12,4 +12,4 @@ $ ->
 
     $('.hover').waypoint ->
       $(@).removeClass('preload')
-    , offset: '45%'
+    , offset: '65%'
