@@ -1,7 +1,8 @@
 $ ->
-  $slideshow = $('#project .slideshow .img')
+  if $('#project').length is not 0
+    $slideshow = $('#project .slideshow .img')
 
-  if $slideshow.length > 0
-    $slideshow.slick()
+    if $slideshow.length > 0
+      $slideshow.slick()
 
-  $('.video .wrap').fitVids()
+    $('.video .wrap').fitVids()
