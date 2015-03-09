@@ -2,9 +2,9 @@ $header = $('header')
 klass   = 'open-menu'
 
 $ ->
-  $('.hamburger').on 'click', ->
+  $('.hamburger').on 'click touchstart', ->
     $header.addClass(klass)
     false
 
-  $('body').on 'click', ->
+  $('body').on 'click touchstart', ->
     $header.removeClass(klass)
