@@ -88,6 +88,7 @@ header
         animation-name: slide-out
         transition: .5s
         transform: translateX(100%)
+        z-index: 2
 
         li
           float: none
@@ -106,7 +107,6 @@ header
 
 
     .hamburger
-      display: block
       position: absolute
       top: 0
       right: 0
@@ -115,9 +115,6 @@ header
       box-sizing: content-box
 
     &.open-menu
-      .hamburger
-        display: none
-
       nav
         ul
           display: block
