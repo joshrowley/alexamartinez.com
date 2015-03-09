@@ -33,9 +33,18 @@ footer
     inline-block()
     padding: 15px 0
 
-    img
+    svg
       social-icon-width = 40px
       size: social-icon-width (social-icon-width / 2)
+      cursor: pointer
+
+      path
+        fill: seafoam
+        transition: fill .5s ease
+
+      &:hover
+        path
+          fill: darken-seafoam
 
   .credit
     font-weight: normal
