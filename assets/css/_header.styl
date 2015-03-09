@@ -57,13 +57,14 @@ header
 
     nav
       ul
+        display: none
         position: fixed
         top: 0
         right: 0
         width: 220px
         background-color: white
         border-left: 2px solid gallery-bg
-        transform: translate3d(3000px, 0, 0)
+        // transform: translate3d(3000px, 0, 0)
 
         li
           float: none
@@ -89,3 +90,11 @@ header
       width: 20px
       padding: 25px
       box-sizing: content-box
+
+    &.open-menu
+      .hamburger
+        display: none
+
+      nav
+        ul
+          display: block
