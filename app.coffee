@@ -47,10 +47,10 @@ module.exports =
     marked: marked
     slick_css: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick.min.css'
     slick_js: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick.min.js'
-    fit_vids_js: 'https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js'
+    fit_vids_js: '//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js'
     slick_theme: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick-theme.min.css'
     jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'
-    waypoints_js: 'https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js'
+    waypoints_js: '//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js'
     project_img: (p) -> "/img/projects/#{p}"
     bg_img: (p, color) ->
       style = "background-image: url('#{p}');"
