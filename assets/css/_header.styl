@@ -1,3 +1,25 @@
+@keyframes slide-in
+  0%
+    opacity: 0
+    transform: translateX(100%)
+
+  75%
+    opacity: 1
+
+  100%
+    transform: none
+
+@keyframes slide-out
+  0%
+    transform: none
+
+  75%
+    opacity: 1
+
+  100%
+    opacity: 0
+    transform: translateX(100%)
+
 header
   padding: 35px 20px
 
@@ -57,14 +79,15 @@ header
 
     nav
       ul
-        display: none
         position: fixed
         top: 0
         right: 0
         width: 220px
         background-color: white
         border-left: 2px solid gallery-bg
-        // transform: translate3d(3000px, 0, 0)
+        animation-name: slide-out
+        transition: .5s
+        transform: translateX(100%)
 
         li
           float: none
@@ -98,3 +121,5 @@ header
       nav
         ul
           display: block
+          animation-name: slide-in
+          transform: none
