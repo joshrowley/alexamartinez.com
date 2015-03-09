@@ -3,7 +3,6 @@ $ ->
     animate = (e) ->
       e.preventDefault()
       target  = @hash
-      console.log(target)
       $target = $(@hash)
 
       $('html, body').stop().animate
