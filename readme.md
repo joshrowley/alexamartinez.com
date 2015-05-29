@@ -1,6 +1,6 @@
-# alexa-portfolio
+# alexamartinez.com
 
-Alexa&#39;s portfolio site.
+Alexa&#39;s [portfolio](http://alexamartinez.com/).
 
 ### Setup
 
