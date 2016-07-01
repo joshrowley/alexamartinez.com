@@ -19,3 +19,6 @@ To deploy:
 
 - make sure ship is installed with `npm install ship -g` (only need to run this once)
 - `npm run ship`
+- cd = change
+- ls = list
+- 
