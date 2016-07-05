@@ -26,3 +26,9 @@ html
     script(src= jquery)
     block vendor_js
     != js('/')
+    //- dummy elements to hide using nth last child rules targeting
+    //- netlify popup (backup in case the netlify logo isn't present
+    //- so that the rule doesnt affect actual content
+    span
+    span
+    span
