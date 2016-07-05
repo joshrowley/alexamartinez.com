@@ -17,6 +17,6 @@
     "stylus": "0.49.x"
   },
   "scripts": {
-    "ship": "roots deploy -to netlify"
+    "ship": "roots clean; roots compile -e production; roots deploy -to netlify"
   }
 }
